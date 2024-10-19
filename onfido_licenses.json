@@ -1,0 +1,42 @@
+{
+  "dependencies": [
+    {
+      "name": "dagger",
+      "project_url": "https://github.com/google/dagger",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright 2012 The Dagger Authors",
+      "changed_source_code": true,
+      "source_code_changes": "repackaging - dagger -> com.onfido.dagger"
+    },
+    {
+      "name": "analytics-android",
+      "project_url": "https://github.com/segmentio/analytics-android",
+      "license_name": "MIT",
+      "copyright_notice": "Copyright (c) 2016 Segment, Inc.",
+      "changed_source_code": true,
+      "source_code_changes": "repackaging - com.segment.analytics -> com.onfido.segment.analytics"
+    },
+    {
+      "name": "yearclass",
+      "project_url": "https://github.com/facebook/device-year-class",
+      "license_name": "BSD",
+      "copyright_notice": "Copyright (c) 2015, Facebook, Inc. All rights reserved.",
+      "changed_source_code": true,
+      "source_code_changes": "changed file headers to provide a correct location for the license and removed unneeded code for Android versions we do not support"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "Apache-2.0",
+      "file": "onfido_licenses_apache2_0.txt"
+    },
+    {
+      "name": "MIT",
+      "file": "onfido_licenses_mit.txt"
+    },
+    {
+      "name": "BSD",
+      "file": "onfido_licenses_bsd.txt"
+    }
+  ]
+}
